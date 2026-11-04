@@ -1,0 +1,29 @@
+# ==============================================================================
+# .gitignore - Infrastructure Réseau Multi-DMZ avec OPNsense
+# ==============================================================================
+
+# Fichiers de travail volumineux et archives d'origine
+*.zip
+*.tar.gz
+*.iso
+*.vmdk
+*.ova
+*.ovf
+reference_docs/
+
+# Fichiers de clés et secrets sensibles
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+.env
+
+# Fichiers systèmes et d'éditeurs
+.DS_Store
+Thumbs.db
+*.bak
+*~
+.vscode/
+.idea/
+
